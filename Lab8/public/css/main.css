@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-image: url("https://wallpapercave.com/w/K7Mh4HD");
+
+  font-size: 14pt;
+}
+
+body {
+  background: #da5f63;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+  color: rgb(238, 237, 237);
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(141, 206, 141);
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(180, 219, 226);
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(236, 157, 197);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(238, 237, 237);
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1.05rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+h1.centerCharSearch {
+  padding-top: 70px;
+  text-align: center;
+}
+
+h2.centerCharSearch {
+  text-align: center;
+}
+
+p.centerCharSearch {
+  text-align: justify;
+}
+
+h1.search {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+p.search {
+  text-align: justify;
+}
+
+form.search {
+  align-content: center;
+  padding: 10px;
+}

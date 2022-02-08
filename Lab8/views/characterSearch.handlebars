@@ -1,0 +1,14 @@
+<h1 class="centerCharSearch">{{title}}</h1>
+<h2 class="centerCharSearch">{{searchChar}}</h2>
+<main class="centerCharSearch">
+  <p>This is a web application to find marvel Characters. We are using Marvel
+    api by signing up and using Public key and Privater Key. We will implement
+    methods to search and show marvel characters fetched from marvel API. Your
+    favourite character in box below!!!</p>
+  <ul>
+    {{#each characters}}
+      <li><a href="/characters/{{this.id}}">{{this.name}}</a></li>
+    {{/each}}
+  </ul>
+  <a href="/">Make another search</a>
+</main>

@@ -1,0 +1,88 @@
+table {
+    width: 100%;
+}
+
+p{
+    font-size: 28px;
+}
+
+.mat-raised-button:disabled{
+    background-color: black;
+    color: white;
+}
+
+#head {
+    margin-bottom: 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+#ticket_history {
+    margin-top: 50px;
+}
+
+.table_head {
+    font-size: 18px;
+    position: relative;
+}
+
+.table_title {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.table_content {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#left_row {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+#right_row {
+    float:left;
+    margin-left: 20px;
+    width: 40%;
+}
+
+.comment-form {
+    width: 100%;
+}
+  
+.full-width {
+    width: 100%;
+}
+
+#comments {
+    margin-top: 50px;
+}
+
+.main {
+    margin-left: 160px;
+}
+
+.badge {
+    padding: .5em .6em;
+    color: white;
+    background-color: #435B60;
+    min-width: 16px;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  
+button.delete {
+    background-color: gray;
+    color: white;
+    padding: 5px 8px;
+    width: 2em;
+  }

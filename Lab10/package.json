@@ -1,0 +1,18 @@
+{
+  "name": "cs-546-lab-10",
+  "version": "1.0.0",
+  "description": "this is lab 10",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Utsav Italiya 10475248",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5",
+    "express-session": "^1.17.2",
+    "mongodb": "^3.6.2"
+  }
+}

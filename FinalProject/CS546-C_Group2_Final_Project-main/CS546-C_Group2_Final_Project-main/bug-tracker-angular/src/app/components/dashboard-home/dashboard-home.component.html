@@ -1,0 +1,35 @@
+<div class="sidenav">
+  <a href="/dashboard">dashboard</a>
+  <a href="/projects">Project</a>
+  <a href="/home">Home</a>
+  <div *ngIf="admin">
+    <a href="/admin-home">Admin</a>
+</div>
+</div>
+
+
+<p>This is a chart</p>
+<div class = "main"style="display: block;">
+  <!-- <canvas baseChart 
+    height = "100"
+    [data]="pieChartData" 
+    [labels]="pieChartLabels" 
+    [chartType]="pieChartType"
+    [options]="pieChartOptions"
+    [plugins]="pieChartPlugins"
+    [legend]="pieChartLegend">
+  </canvas> -->
+
+
+
+  <canvas baseChart 
+  height = "100"
+  weight = "10"
+  [data]="barChartData" 
+  [labels]="barChartLabels" 
+  [chartType]="barChartType"
+  [options]="barChartOptions"
+  [plugins]="barChartPlugins"
+  [legend]="barChartLegend">
+</canvas>
+</div>
